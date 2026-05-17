@@ -1,0 +1,13 @@
+{
+  "name": "ledja-indexer",
+  "version": "0.1.0",
+  "description": "Stellar blockchain indexer for Ledja — reads and indexes on-chain data via Horizon and Soroban RPC",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "license": "MIT"
+}
